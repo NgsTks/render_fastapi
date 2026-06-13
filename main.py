@@ -27,5 +27,5 @@ def omikuji():
         ("小凶","小凶。注意が必要な日です。慎重に行動しましょう。"),
         ("大凶","大凶。厳しい状況が訪れるかもしれませんが、乗り越えましょう。")
     ]
-    rand = random.randrange(10)
+    rand = random.randrange(8)
     return {"result" : omikuji_list[rand][0], "description" : omikuji_list[rand][1]}
